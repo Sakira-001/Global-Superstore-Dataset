@@ -13,7 +13,7 @@ Global Superstore is a global online retailer based in New York, boasting a broa
 8. [Questions & Answers](#questions--answers)
 9. [Recommendation](#Recommendation)
 10. [Author](#author)
-
+11. [Conclusion](#conclusion)
 ---
 
 ## Overview
@@ -52,38 +52,30 @@ The raw data for this dashboard includes a comprehensive dataset of the Global S
 ---
 
 ### Data Cleaning Process in Power Query
-- **Removed Duplicates**: Identified and removed duplicate rows based on Collision ID to ensure each collision record is unique.
-- **Time Data Type**: Changed the time data type from Time & Date to Time only.
-- **Null**: Chabged the Null values in the Borough, Steet Name and Contributing factor column to "Unknown or "Unspecified".
-- **Find and Replace**: Used the Find and Replace to reduce the contents "Vehicle" and "Contributing Factors" columns.
+- **Removed Duplicates**: Duplicate records were identified and removed in the Customer ID column to prevent double-counting.
+- **Handling Missing Values**: Blank or null fields in key columns were replacing with appropriate values (e.g., Profit, Product Name, Country).
+- **Find and Replace**: Used the Find and Replace to fill in missing values in some columns.
 
 ---
 
 ## Dashboard Features
-- **Interactive Filters**: Users can slice and explore the data by borough, vehicle type, contributing factors, month, and injury/fatality type for flexible, in-depth analysis.
-- **Visualizations**: The dashboard incorporates bar charts, pie charts, stacked columns, and heat maps to clearly display accident trends, contributing causes, and spatial distribution.
-- **Custom Groupings**: Vehicle types and contributing factors were grouped into meaningful categories (e.g., Passenger, Commercial, Unknown) to simplify interpretation.
-- **Time-Based Analysis**: Monthly and hourly trend graphs allow users to detect seasonal patterns and peak collision times.
-- **Highlight Cards (KPIs)**: Summary cards show total collisions, injuries, and fatalities, providing an instant snapshot of the overall impact.
-- **User-Centric Design**: Custom color schemes, consistent font styles, and intuitive slicer layouts were applied to ensure clarity, readability, and visual appeal.
-- **Responsive Insights**: All charts dynamically update based on selected filters, helping users draw targeted conclusions based on specific scenarios.
+- **Interactive Filters**: Users can filter the dashboard by year, country, category, and sub-category, enabling targeted exploration of profit, sales, shipping cost, and discount trends across different regions and product types.
+- **Visualizations**: The dashboard integrates bar charts, column charts, and KPI cards to visually communicate top-performing countries, product profitability, shipping costs, and regional comparisons.
+- **Profit and Product Analysis**: Separate visuals highlight the most and least profitable products, top-selling items by country, and product subcategories with high shipping costs, helping identify what drives or drains profit in various markets.
+- **Location-Based Insights**: Detailed comparisons between cities (e.g., Lafayette vs. Lancaster) and countries (e.g., U.S. vs. Nigeria) reveal regional variations in shipping costs, discount impact, and sales patterns.
+- **Discount Impact Analysis**: The dashboard explores how discount levels influence profitability, especially contrasting markets like Nigeria and the U.S., offering insights into promotional effectiveness.
+- **Highlight Cards (KPIs)**: Key metrics such as Total Sales, Total Profit, Total Shipping Cost, and Average Discount are displayed prominently at the top to provide a quick summary of business performance.
+- **User-Friendly Design**: A clean layout with consistent fonts, colors, and intuitive slicers ensures ease of navigation and interpretation for both analysts and non-technical users.
+- **Responsive Insights**: All visual elements are fully interactive and update in real-time based on user filter selections, allowing dynamic, scenario-based analysis.
 
-![NYC_ROAD_ACCIDENT_DASHBOARD]("")
+![Global_Superstore_DASHBOARD]("")
 
 ---
 
 ## Key Metrics
-1. **Total Reported Collisions**: 91,286
-2. **Total Injuries**: 45,317
-   - Persons Injured: 37,198
-   - Pedestrians Injured: 4,211
-   - Cyclists Injured: 1,932
-   - Motorists Injured: 1,976
-3. **Total Fatalities**: 276
-   - Persons Killed: 213
-   - Pedestrians Killed: 39
-   - Cyclists Killed: 12
-   - Motorists Killed: 12
+1. **Total Sales**: $2,297,201
+2. **Total Profit**: $286,400
+3. **Total Shipping Cost**: $64,068
 4. **Borough with Most Collisions**: Brooklyn
 5. **Most Common Contributing Factor**: Driver Inattention/Distraction
 6. **Peak Collision Hours**: Between 3 PM – 6 PM
