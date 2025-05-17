@@ -114,22 +114,50 @@ The raw data for this dashboard includes a comprehensive dataset of the Global S
 ---
 
 ## Questions & Answers
-### Q1: Compare the % of total accidents by month. Do you notice any seasonal patterns? 
-**A**: Yes, a clear seasonal pattern emerges. The highest percentage of accidents occurred in October, followed by June and August. The months with the lowest accident rates were February and January.
+### Q1a: What are the three countries that generated the highest total profit for Global Superstore in 2014?  
+**Ans**: - United States
+         - India
+         - China
+### Q1b:  For each of these three countries, find the three products with the highest total profit. Specifically, what are the products’ names and the total profit for each product?   
+**Ans**: United States: - Canon imageCLASS – $16K
+                        - Hewlett-Packard (Hewlett ...) – $4K
+                        - GBC Document (GBC Do...) – $2K
+         India:         - Sauder Classic Bookcase (Sauder Cla...) – $2.4K
+                        - Cisco Smart Business (Cisco Sma...) – $1.6K
+                        - Hamilton Beach Blender (Hamilton...) – $1.4K
+         China:         - Sauder Bookcase (Sauder...) – $1.5K
+                        - Bush Classic Furniture (Bush Cl...) – $1.2K
+                        - HP Copier (HP Cop...) – $1.2K
 
-### Q2: Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
-**Ans**: - Accidents peak sharply around midnight (12:00 AM) — likely due to the timestamp default or batch reporting practices — followed by a steady increase from 6:00 AM, with consistent spikes between 8:00 AM to 6:00 PM, especially around 3:00 PM to 6:00 PM, coinciding with afternoon rush hours.
-         - By Day of Week: Fridays have the highest accident frequency, followed closely by Thursdays and Wednesdays.
-Weekends (especially Sundays) see fewer incidents, likely due to reduced commuting traffic.
+### Q2: Identify the 3 subcategories with the highest average shipping cost in the United States. 
+**Ans**: - Tables
+         - Bookcases
+         - Chair
 
-### Q3:  On which particular street were the most accidents reported? What does that represent as a % of all reported accidents? 
-**Ans**: The street with the most reported accidents was Brooklyn.
+### Q3a:  Assess Nigeria’s profitability (i.e., total profit) for 2014. How does it compare to other African countries? 
+**Ans**: Total Profit: -$5,959.27. This is the worst-performing country in Africa in terms of profit.
+### Q3b:  What factors might be responsible for Nigeria’s poor performance? You might want to investigate shipping costs and the average discount as potential root causes.
+**Ans**: - High Discounts: Products in Nigeria are often sold at significant discounts, impacting profit margins.
+         - Very High Shipping Cost: Nigeria has one of the highest average shipping costs among African countries.
 
-### Q4: What was the most common contributing factor for the accidents reported in this sample (based on 
-Vehicle 1)? What about fatal accidents specifically?  
-**Ans**: - The most common contributing factor across all accidents (based on Vehicle 1) was Unspecified.
-         - For fatal accidents specifically, the leading contributing factor remained Unspecified.
+### Q4a: Identify the product subcategory that is the least profitable in Southeast Asia. Note: For this question, assume that Southeast Asia comprises Cambodia, Indonesia, Malaysia, Myanmar (Burma), the Philippines, Singapore, Thailand, and Vietnam.  
+**Ans**: Tables
+### Q4b: Is there a specific country i n Southeast Asia where Global Superstore should stop offering the subcategory identified in 4a?  
+**Ans**: Myanmar (Burma) had the lowest profit from Tables and may not be a viable market for this subcategory.
 
+### Q5a: Which city is the least profitable (in terms of average profit) in the United States? For this analysis, discard the cities with less than 10 Orders. b) Why is this city’s average profit so low? 
+**Ans**:Philadelphia
+### Q5b: Why is this city’s average profit so low? 
+**Ans**: - High Discount Rates and Frequent Returns were observed.
+         - The city also had low average order value, affecting profit margins.
+
+### Q6: Which product subcategory has the highest average profit in Australia?  
+**Ans**: Copier
+
+### Q7: Who are the most valuable customers and what do they purchase? 
+**Ans**: - Sean Miller (United States) – Primarily purchases Copiers and Phones
+         - Neel Sharma (India) – High-volume orders of Binders and Furnishings
+         - Victoria Ashbrook (Australia) – Repeatedly purchases Chairs and Office Supplies
 ---
 
 ## Recommendation
@@ -140,7 +168,7 @@ Vehicle 1)? What about fatal accidents specifically?
 ---
 
 ## Conclusion
-This analysis provided valuable insights into the sales performance across different regions, customer segments, and product categories. While the United States remains the strongest market in terms of revenue and profit, high shipping costs and over-discounting present areas for improvement. Identifying underperforming subcategories and optimizing pricing strategies can help increase profitability globally. By focusing on high-performing segments like the Home Office category and refining regional product strategies, the company can enhance overall market efficiency and drive sustainable growth.
+- This analysis provided valuable insights into the sales performance across different regions, customer segments, and product categories. While the United States remains the strongest market in terms of revenue and profit, high shipping costs and over-discounting present areas for improvement. Identifying underperforming subcategories and optimizing pricing strategies can help increase profitability globally. By focusing on high-performing segments like the Home Office category and refining regional product strategies, the company can enhance overall market efficiency and drive sustainable growth.
 ---
 
 ## Author
