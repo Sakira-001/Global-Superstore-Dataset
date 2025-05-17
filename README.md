@@ -12,8 +12,8 @@ Global Superstore is a global online retailer based in New York, boasting a broa
 7. [Tools & Techniques Used](#tools--techniques-used)
 8. [Questions & Answers](#questions--answers)
 9. [Recommendation](#Recommendation)
-10. [Author](#author)
-11. [Conclusion](#conclusion)
+10. [Conclusion](#conclusion)
+11. [Author](#author)
 ---
 
 ## Overview
@@ -76,42 +76,39 @@ The raw data for this dashboard includes a comprehensive dataset of the Global S
 1. **Total Sales**: $2,297,201
 2. **Total Profit**: $286,400
 3. **Total Shipping Cost**: $64,068
-4. **Borough with Most Collisions**: Brooklyn
-5. **Most Common Contributing Factor**: Driver Inattention/Distraction
-6. **Peak Collision Hours**: Between 3 PM – 6 PM
-7. **Collisions by Vehicle Type**:
-   - Passenger Vehicles: 58%
-   - Commercial Vehicles: 18%
-   - Two-Wheelers (Motorcycles, Bicycles): 9%
-   - Emergency Services: 3%
-   - Others: 6%
-   - Unknown/Not Reported: 6%
-8. **Seasonal Pattern**: Highest collisions recorded in October, lowest in February
-9. **Most Affected Demographic**: Motorists and pedestrians injured in Brooklyn and Queens
-10. **Location Hotspots**: Most incidents occurred in densely populated areas with high traffic volume
+4. **Average Discount**: 15%
+5. **Top 3 Countries by Total Profit (2014)**:
+   - United States
+   - India
+   - China
+6. **Top 3 Best-Selling Products by Profit**:
+   - Canon imageCLASS 2200 Advanced Copier
+   - Sharp AL-1530CS Digital Copier
+   - Hoover WindTunnel Plus Vacuum
+7. **Top Subcategories with Highest Shipping Costs**:
+   - Chairs
+   - Bookcases
+   - Tables
 
 ---
 
 ## Insights & Conclusions
-1. **Leading Causes of Collisions**:
-   - The top contributing factor to collisions is "Unspecified", meaning a lack of detailed reporting.
-   - Driver inattention/distraction is the most reported cause, emphasizing the need for awareness campaigns on focused driving.
-2. **Fatalities Across Boroughs**:
-   - Brooklyn has the highest fatalities among pedestrians, motorists, and cyclists.
-   - Motorists experience the most fatalities overall, suggesting that driver safety improvements are needed.
-3. **Vehicle Types in Collisions**:
-   - Passenger vehicles account for the highest number of collisions, far exceeding any other vehicle type across all boroughs.
-   - Bicycles, taxis, motorcycles, and buses contribute to accidents but at significantly lower numbers compared to passenger vehicles.
-   - Brooklyn leads in overall collisions, followed by Queens and the Bronx, possibly due to higher traffic density and population.
-
+1. **High Discounts Do Not Guarantee High Profits**:
+   - Cities like Lancaster and other regions with high discount rates still underperformed in profit, indicating that excessive discounting may be reducing overall profitability.
+2. **U.S. Leads in Sales and Profit but Incurs Highest Shipping Costs**:
+   - The U.S. remains the top market for both sales and profit; however, it also has the highest shipping costs, which could reduce profit margins if not optimized.
+3. **Specific Product Subcategories Contribute to Losses in Certain Regions**:
+   - Subcategories such as Tables, Bookcases, and Machines consistently perform poorly in Southeast Asia, pointing to issues with market fit or pricing.
+4. **Home Office Segment Shows Strong Performance Across Multiple Regions**:
+   - The Home Office customer segment shows steady growth in sales and profit, suggesting a stable and potentially scalable target audience for marketing and product development.   
 ---
 
 ## Tools & Techniques Used
 1. **Power BI**:
    - Power Query Editor for extensive data cleaning and transformation.
-   - DAX (Data Analysis Expressions) to calculate key metrics like total collisions, injuries, fatalities, and percentage breakdowns.
-   - Slicers for dynamic filtering by borough, vehicle type, month, and contributing factors.
-   - Custom Visuals including bar charts, pie charts, stacked columns, KPIs, and heatmaps for clear insight presentation.
+   - DAX (Data Analysis Expressions) to calculate key metrics.
+   - Slicers for dynamic filtering.
+   - Custom Visuals including bar charts, pie charts, stacked columns, and KPIs for clear insight presentation.
 2. **Figma**: Designed visual mockups and layout guides to ensure a clean, user-friendly dashboard interface.
 
 ---
@@ -136,16 +133,15 @@ Vehicle 1)? What about fatal accidents specifically?
 ---
 
 ## Recommendation
-1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and Conducting public awareness campaigns on focused driving and accident prevention.
-2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and Enforce speed limits, right-of-way laws, and lane discipline more strictly.
-3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and Install more traffic calming measures (e.g., speed bumps, pedestrian islands).
-4. Targeted Safety Measures in High-Collision Boroughs: Brooklyn & Queens: Implement city-wide road safety programs due to high fatalities.
-5. 
----
-
-## Author
-This project was created by Sakira, a data analyst with a strong background in data storytelling, dashboard design, and analytical problem-solving. I specialize in using tools like Excel, Power BI, and SQL to transform raw data into actionable insights. I'm passionate about building user-centric dashboards that reveal trends, improve decision-making, and create impact across various industries.. [[www.linkedin.com/in/sakira-daodu-b44666275](https://www.linkedin.com/in/sakira-daodu-b44666275/)].
+1. Analyze discount effectiveness and reduce excessive discounting that doesn’t lead to higher profits. Emphasize value and unique selling propositions instead.
+2. Review supply chain logistics in the U.S. to identify areas for cost reduction without affecting delivery times or customer satisfaction.
+3. Consider retiring, bundling, or repackaging poorly performing products like Tables and Machines in Southeast Asia to avoid recurring losses.
 
 ---
 
 ## Conclusion
+This analysis provided valuable insights into the sales performance across different regions, customer segments, and product categories. While the United States remains the strongest market in terms of revenue and profit, high shipping costs and over-discounting present areas for improvement. Identifying underperforming subcategories and optimizing pricing strategies can help increase profitability globally. By focusing on high-performing segments like the Home Office category and refining regional product strategies, the company can enhance overall market efficiency and drive sustainable growth.
+---
+
+## Author
+This project was created by Sakira, a data analyst with a strong background in data storytelling, dashboard design, and analytical problem-solving. I specialize in using tools like Excel, Power BI, and SQL to transform raw data into actionable insights. I'm passionate about building user-centric dashboards that reveal trends, improve decision-making, and create impact across various industries.. [[www.linkedin.com/in/sakira-daodu-b44666275](https://www.linkedin.com/in/sakira-daodu-b44666275/)].
