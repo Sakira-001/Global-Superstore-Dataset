@@ -115,30 +115,21 @@ The raw data for this dashboard includes a comprehensive dataset of the Global S
 
 ## Questions & Answers
 ### Q1a: What are the three countries that generated the highest total profit for Global Superstore in 2014?  
-**Ans**: - United States
-         - India
-         - China
+**Ans**: United States, India and China
 ### Q1b:  For each of these three countries, find the three products with the highest total profit. Specifically, what are the products’ names and the total profit for each product?   
-**Ans**: United States: - Canon imageCLASS – $16K
-                        - Hewlett-Packard (Hewlett ...) – $4K
-                        - GBC Document (GBC Do...) – $2K
-         India:         - Sauder Classic Bookcase (Sauder Cla...) – $2.4K
-                        - Cisco Smart Business (Cisco Sma...) – $1.6K
-                        - Hamilton Beach Blender (Hamilton...) – $1.4K
-         China:         - Sauder Bookcase (Sauder...) – $1.5K
-                        - Bush Classic Furniture (Bush Cl...) – $1.2K
-                        - HP Copier (HP Cop...) – $1.2K
+**Ans**: - United States(Canon imageCLASS, Hewlett-Packard (Hewlett ...), GBC Document (GBC Do...))
+         - India(Sauder Classic Bookcase (Sauder Cla...), Cisco Smart Business (Cisco Sma...), Hamilton Beach Blender (Hamilton...) – $1.4K)
+         - China(Sauder Bookcase (Sauder...) – $1.5K, Bush Classic Furniture (Bush Cl...), HP Copier (HP Cop...))
 
 ### Q2: Identify the 3 subcategories with the highest average shipping cost in the United States. 
-**Ans**: - Tables
-         - Bookcases
-         - Chair
+**Ans**: Tables, Bookcases and Chair
 
 ### Q3a:  Assess Nigeria’s profitability (i.e., total profit) for 2014. How does it compare to other African countries? 
 **Ans**: Total Profit: -$5,959.27. This is the worst-performing country in Africa in terms of profit.
 ### Q3b:  What factors might be responsible for Nigeria’s poor performance? You might want to investigate shipping costs and the average discount as potential root causes.
-**Ans**: - High Discounts: Products in Nigeria are often sold at significant discounts, impacting profit margins.
-         - Very High Shipping Cost: Nigeria has one of the highest average shipping costs among African countries.
+**Ans**: - Products in Nigeria are often sold at significant discounts, 
+impacting profit margins.
+         - Nigeria has one of the highest average shipping costs among African countries.
 
 ### Q4a: Identify the product subcategory that is the least profitable in Southeast Asia. Note: For this question, assume that Southeast Asia comprises Cambodia, Indonesia, Malaysia, Myanmar (Burma), the Philippines, Singapore, Thailand, and Vietnam.  
 **Ans**: Tables
@@ -155,7 +146,7 @@ The raw data for this dashboard includes a comprehensive dataset of the Global S
 **Ans**: Copier
 
 ### Q7: Who are the most valuable customers and what do they purchase? 
-**Ans**: - Sean Miller (United States) – Primarily purchases Copiers and Phones
+- **Ans**: - Sean Miller (United States) – Primarily purchases Copiers and Phones
          - Neel Sharma (India) – High-volume orders of Binders and Furnishings
          - Victoria Ashbrook (Australia) – Repeatedly purchases Chairs and Office Supplies
 ---
